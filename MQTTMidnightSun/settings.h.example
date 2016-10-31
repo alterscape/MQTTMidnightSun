@@ -1,0 +1,14 @@
+// Settings File
+// Never commit the actual values of these things to a git repo!
+// To make this project build, copy this file 
+
+// the SSID of the wifi network your ESP2866 will connect to
+#define WIFI_SSID "My Router SSID" 
+
+// the password for your wifi network.
+#define WIFI_PASS "my router password"
+
+// the IP address of your MQTT broker
+#define MQTT_ADDR "127.0.0.1"
+
+#define MQTT_PORT 1883
